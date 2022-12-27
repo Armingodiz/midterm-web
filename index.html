@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Github Information</title> 
+    <!-- adding css and js file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body class="bg">
+    <div class="void">
+        <div id="output-box">
+            <div class="personal-info">
+                <div class="profile-div">
+                    <!-- adding base image to show befor hitting submit button -->
+                    <img src="static/images/base_user.jpg" id="avatar-img" >
+                </div>
+                <div class="name-div">
+                    <h1 id="account-name">User Name</h1>
+                    <h4 id="blog">User Blog</h4>
+                </div>
+
+            </div>
+            <div class="account-info">
+                <table class="acount-info-table">
+                    <thead>
+                        <tr>
+                            <th style="padding-top: 7px">Location</th>
+                            <th style="padding-top: 7px">Followers</th>
+                            <th style="padding-top: 7px">Following</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="loc">-</td>
+                            <td id="followers">-</td>
+                            <td id="following">-</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th colspan="3">User Bio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" id="bio">-</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Favourite Programming Language</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" id="fav_lang">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="input-box">
+            <div class="user-input">
+                <input type="text" placeholder="username" id="username">
+                <button id="searchBtn" onclick="getUserInfo()">Submit</button>
+            </div>
+            <div id="message"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
