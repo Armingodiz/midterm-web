@@ -1,0 +1,158 @@
+/* The style of the page components */
+/* Background Image */
+body {
+    background-image: url('../static/images/my_octocat.png'); /* The image used */
+    background-size: cover; /* cover the whole screen */
+    background-repeat: no-repeat; /* Do not repeat the image if the screen size changed */
+    height: auto;
+}
+
+/* Input and Output containers */
+.void {
+    width: 900px;;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+/* Output container (left box) */
+#output-box {
+    width: 55%;
+    height: 90%;
+    background-color: rgb(207, 130, 6); /* The color of the box */
+    opacity: 0.85; /* transparency of the box */
+    border-radius: 25px;
+    float: left;
+    padding: 20px;
+}
+
+/* Input container (right box) */
+#input-box {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(207, 130, 6); /* The color of the box */
+    opacity: 0.85; /* transparency of the box */
+    border-radius: 25px;
+    float: right;
+    padding: 20px;
+}
+
+
+.user-input { /* The style of whole input box */
+    height: 200px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+/* input box style */
+input {
+    width: 95%;
+    padding: 15px 5px;
+    margin-top: 50px;
+    background-color: rgb(250, 213, 158);
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus{ /* The style of the input box when it is focused */
+    outline: none; /* Remove the blue border around the input box */
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.95);
+}
+
+input:hover{ /* The style of the input box when it is hovered */
+    outline: none; /* Remove the blue border around the input box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+/*====================================================================================*/
+
+/* Search button style */
+
+button {
+    background-color: rgb(250, 213, 158);
+    border-radius: 10px; 
+    border: none; /* Remove the blue border around the button */
+}
+
+button:hover{ /* The style of the input box when it is hovered */
+    outline: none; /* Remove the blue border around the input box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+
+#searchBtn {
+    display: block;
+    margin: 70px auto;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+/* ==================================================================================== */
+
+/* Upper div in output box ==> Profile image, Name and Blog of the inputted User */
+.personal-info {
+    height: 150px;
+}
+
+/* ==================================================================================== */
+
+/* Lower div in output box ==> Account data from github */
+.account-info {
+    margin-top: 10px;
+    height: 275px;
+    padding: 10px;
+}
+/* ==================================================================================== */
+
+/* The style of the profile image */
+.profile-div {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+/* ==================================================================================== */
+
+/* The style of the name and blog of the inputted User */
+.name-div {
+    width: 250px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    text-align: center;
+}
+/* ==================================================================================== */
+
+/* The style of the table that contains the account data */
+.acount-info-table {
+    padding: 25px;
+    border-collapse: collapse; /* Remove the border around the table */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif; /* The font of the table */
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* The shadow of the table */
+    border-radius: 20px;
+}
+td { /* The style of the table data */
+    padding: 20px;
+    text-align: center;
+}
+th { /* The style of the table header */
+    padding: 3px;
+}
+
+/* ==================================================================================== */
+
+/* Style for the user not found message box */
+#message {
+    height: 40px; 
+    text-align: center; /* The text is centered */
+}
