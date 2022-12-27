@@ -1,0 +1,2 @@
+repo: https://github.com/Armingodiz/midterm-web
+page_url: https://armingodiz.github.io/midterm-web/
